@@ -66,11 +66,11 @@ export default function TextForm(props) {
             rows="8"
         ></textarea>
     </div>
-    <button className="btn btn-primary mx-2" onClick={handleUpClick}>Convert to UpperCase</button>
-    <button className="btn btn-primary mx-2" onClick={handleLoClick}>Convert to LowerCase</button>
-    <button className="btn btn-primary mx-2" onClick={handleCopyClick}>Copy Text</button>
-    <button className="btn btn-primary mx-2" onClick={handleClearClick}>Clear</button>
-    <button className="btn btn-primary mx-2" onClick={handleExtraSpace}>Remove Extra Space</button>
+    <button className="btn btn-primary mx-2 my-2" onClick={handleUpClick}>Convert to UpperCase</button>
+    <button className="btn btn-primary mx-2 my-2" onClick={handleLoClick}>Convert to LowerCase</button>
+    <button className="btn btn-primary mx-2 my-2" onClick={handleCopyClick}>Copy Text</button>
+    <button className="btn btn-primary mx-2 my-2" onClick={handleClearClick}>Clear</button>
+    <button className="btn btn-primary mx-2 my-2" onClick={handleExtraSpace}>Remove Extra Space</button>
 </div>
 <div className="container my-3" style={{color: props.mode === 'dark' ? 'white' : 'black'}}>
     <h1>Text Summary</h1>
